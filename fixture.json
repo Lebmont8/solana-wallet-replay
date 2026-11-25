@@ -1,0 +1,583 @@
+{
+  "owner": "SyntheticWallet11111111111111111111111",
+  "quote": "FixtureUSDC11111111111111111111111111111",
+  "symbols": {
+    "FixtureMoss11111111111111111111111111111": "MOSS",
+    "FixtureQuiLL1111111111111111111111111111": "QUILL"
+  },
+  "transactions": [
+    {
+      "slot": 1001,
+      "order": 0,
+      "blockTime": 1735689601,
+      "transaction": {
+        "signatures": [
+          "fixture-swap-1001-0"
+        ]
+      },
+      "meta": {
+        "err": null,
+        "preTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "1000000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureMoss11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ],
+        "postTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "980000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureMoss11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "15000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slot": 1002,
+      "order": 0,
+      "blockTime": 1735689602,
+      "transaction": {
+        "signatures": [
+          "fixture-swap-1002-0"
+        ]
+      },
+      "meta": {
+        "err": null,
+        "preTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "980000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureQuiLL1111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "0",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ],
+        "postTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "940000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureQuiLL1111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "10000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slot": 1003,
+      "order": 0,
+      "blockTime": 1735689603,
+      "transaction": {
+        "signatures": [
+          "fixture-swap-1003-0"
+        ]
+      },
+      "meta": {
+        "err": null,
+        "preTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "940000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureMoss11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "15000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ],
+        "postTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "940000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureMoss11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "17000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slot": 1004,
+      "order": 0,
+      "blockTime": 1735689604,
+      "transaction": {
+        "signatures": [
+          "fixture-swap-1004-0"
+        ]
+      },
+      "meta": {
+        "err": null,
+        "preTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "940000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureMoss11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "17000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ],
+        "postTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "952000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureMoss11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "13000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slot": 1005,
+      "order": 0,
+      "blockTime": 1735689605,
+      "transaction": {
+        "signatures": [
+          "fixture-swap-1005-0"
+        ]
+      },
+      "meta": {
+        "err": null,
+        "preTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "952000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureQuiLL1111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "10000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ],
+        "postTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "956000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureQuiLL1111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "9000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slot": 1006,
+      "order": 0,
+      "blockTime": 1735689606,
+      "transaction": {
+        "signatures": [
+          "fixture-swap-1006-0"
+        ]
+      },
+      "meta": {
+        "err": {
+          "InstructionError": [
+            2,
+            "Custom"
+          ]
+        },
+        "preTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "956000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureMoss11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "13000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ],
+        "postTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "956000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureMoss11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "13000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slot": 1007,
+      "order": 0,
+      "blockTime": 1735689607,
+      "transaction": {
+        "signatures": [
+          "fixture-swap-1007-0"
+        ]
+      },
+      "meta": {
+        "err": null,
+        "preTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "956000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureQuiLL1111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "9000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ],
+        "postTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "944000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureQuiLL1111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "15000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ]
+      }
+    },
+    {
+      "slot": 1001,
+      "order": 0,
+      "blockTime": 1735689601,
+      "transaction": {
+        "signatures": [
+          "fixture-swap-1001-0"
+        ]
+      },
+      "meta": {
+        "err": null,
+        "preTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "1000000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureMoss11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ],
+        "postTokenBalances": [
+          {
+            "accountIndex": 1,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "980000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 2,
+            "mint": "FixtureMoss11111111111111111111111111111",
+            "owner": "SyntheticWallet11111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "15000000",
+              "decimals": 6
+            }
+          },
+          {
+            "accountIndex": 3,
+            "mint": "FixtureUSDC11111111111111111111111111111",
+            "owner": "OtherFixtureOwner111111111111111111111",
+            "uiTokenAmount": {
+              "amount": "5000000",
+              "decimals": 6
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

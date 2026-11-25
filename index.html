@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solana Wallet Replay</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/ui.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Solana Wallet Replay</h1>
+      <p>Read a wallet’s SPL token balance changes and replay a fixed-size copy rule without placing orders.</p>
+    </header>
+    <form action="/api/replay" method="get">
+      <label for="budget">Starting cash (USDC)
+        <input type="number" id="budget" name="budget" value="75" min="1" max="100000" step="0.01" required>
+      </label>
+      <label for="clip">Size per buy (USDC)
+        <input type="number" id="clip" name="clip" value="20" min="0.01" max="100000" step="0.01" required>
+      </label>
+      <label for="cap">Buy cap (USDC / token)
+        <input type="number" id="cap" name="cap" value="3" min="0.01" max="100000" step="0.01" required>
+      </label>
+      <label for="fee">Simulated fee (bp)
+        <input type="number" id="fee" name="fee" value="30" min="0" max="1000" step="1" required>
+      </label>
+      <button type="submit">Replay wallet</button>
+    </form>
+    <p id="error" role="alert"></p>
+    <p id="status" role="status"></p>
+    <dl id="metrics" aria-label="Replay totals"></dl>
+    <h2 id="result-heading">Copy decisions</h2>
+    <div class="table" tabindex="0" role="region" aria-labelledby="result-heading">
+      <table aria-labelledby="result-heading">
+        <thead><tr></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <noscript><p>JavaScript is only needed to render the table. The form opens the JSON result without it.</p></noscript>
+  </main>
+</body>
+</html>

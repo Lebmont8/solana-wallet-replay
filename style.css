@@ -1,0 +1,47 @@
+:root {
+  color-scheme: dark;
+  --background: #11181a;
+  --panel: #172123;
+  --text: #eaf0ee;
+  --dim: #aabdb8;
+  --line: #334644;
+  --accent: #b8ec8c;
+  font-family: system-ui, sans-serif;
+  color: var(--text);
+  background: var(--background);
+}
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { max-width: 70rem; margin: auto; padding: clamp(1rem, 4vw, 3rem); }
+header { border-bottom: 1px solid var(--line); padding: 1.25rem 0 1.5rem; }
+h1 { font-size: clamp(2rem, 6vw, 3.75rem); letter-spacing: -.055em; margin: 0; line-height: 1.03; }
+h2 { margin-top: 1.8rem; font-size: 1.15rem; }
+p { color: var(--dim); max-width: 60ch; line-height: 1.5; }
+form { display: flex; flex-wrap: wrap; align-items: end; gap: .9rem; margin: 1.4rem 0; }
+label { display: grid; gap: .45rem; flex: 1 1 10rem; color: var(--dim); font-size: .9rem; }
+input, button { font: inherit; min-height: 2.8rem; border-radius: .4rem; }
+input { width: 100%; color: var(--text); padding: .45rem .7rem; background: var(--panel); border: 1px solid var(--line); }
+button { font-weight: 650; background: var(--accent); color: #152011; border: 0; padding: .5rem 1rem; cursor: pointer; }
+button:disabled { opacity: .65; cursor: wait; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: .22rem; }
+dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr)); gap: 1rem; padding: 1.2rem; background: var(--panel); }
+dl div { min-width: 0; }
+dt { color: var(--dim); font-size: .86rem; }
+dd { margin: .35rem 0 0; font-size: clamp(1.15rem, 3vw, 1.65rem); font-variant-numeric: tabular-nums; overflow-wrap: anywhere; }
+.table { overflow: auto; border: 1px solid var(--line); border-radius: .45rem; }
+table { border-collapse: collapse; width: 100%; text-align: left; font-size: .9rem; font-variant-numeric: tabular-nums; }
+th, td { padding: .7rem .65rem; vertical-align: top; border-bottom: 1px solid var(--line); }
+th { background: var(--panel); color: var(--dim); }
+th:not(:last-child), td:not(:last-child) { white-space: nowrap; }
+td:last-child { min-width: 10rem; }
+tr:last-child td { border-bottom: 0; }
+#error { color: #ffc4ae; }
+#error:empty { margin: 0; }
+a { color: var(--accent); }
+
+#metrics:empty { display: none; }
+
+@media (max-width: 36rem) {
+  form { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  form button { grid-column: 1 / -1; justify-self: start; }
+}
